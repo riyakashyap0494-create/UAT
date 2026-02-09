@@ -43,5 +43,5 @@ test("Save your pass alert", async ({ page }) => {
 
   await page.click("//img[@title='Users']");
 
-  await page.waitForTimeout(3000);
+  await page.waitForTimeout(4000);
 });
